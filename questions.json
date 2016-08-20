@@ -1,0 +1,18 @@
+{ "questions": [
+  {
+    "author": "Alex",
+    "question": "What is the capital of the US?",
+    "notes": "I am intested in Geography."
+  },
+  {
+    "author": "Brian",
+    "question": "What sports event is happening in Rio De Janeiro?",
+    "notes": "I am intested in Sports."
+  },
+  {
+    "author": "Carl",
+    "question": "What company produces Iphone?",
+    "notes": "I am intested in technology."
+  }
+  ]
+}
