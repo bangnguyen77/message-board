@@ -1,5 +1,11 @@
-{{question-detail model=model destroyQuestion="destroyQuestion"}}
-{{edit-question model=model edit1="edit2"}}
+<p>{{question-detail model=model destroyQuestion="destroyQuestion"}}</p>
+<p>{{edit-question model=model edit1="edit2"}}</p>
+
+<br>
+<h3>Answers</h3>
+{{#each model.answers as |answer|}}
+ { {answer-tile answer=answer}}
+{{/each}}
 
 <br>
 {{#link-to 'index'}}Homepage{{/link-to}} |
